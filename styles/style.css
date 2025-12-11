@@ -98,7 +98,7 @@ header {
 .hero-header {
   /* background-color: blue; */
   background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)),
-    url(asset/bg-image.jpg);
+    url(../asset/bg-image.jpg);
   background-size: cover;
 
   display: flex;
