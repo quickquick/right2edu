@@ -41,6 +41,10 @@ header {
   /* width: 100%; */
   /* padding: 14px 0; */
   margin-bottom: 80px;
+  width: 100vw;
+  position: fixed;
+
+  z-index: 10;
 }
 
 .standard-container {

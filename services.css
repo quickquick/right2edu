@@ -65,7 +65,10 @@ header {
 
   /* width: 100%; */
   /* padding: 14px 0; */
-  margin-bottom: 80px;
+  /* margin-bottom: 80px; */
+  position: fixed;
+  width: 100vw;
+  z-index: 10;
 }
 
 .standard-container {
@@ -76,8 +79,8 @@ header {
 }
 
 .nav-container {
-  border-bottom: 3px solid #833eb8;
-  box-shadow: 0 10px 10px #833eb8;
+  /* border-bottom: 3px solid #833eb8; */
+  /* box-shadow: 0 10px 10px #833eb8; */
 
   display: flex;
   justify-content: space-between;
@@ -97,7 +100,6 @@ header {
   justify-content: center;
   align-items: center;
   /* gap: 30px; */
-  font-size: 14px;
 }
 
 .logo-name {
@@ -124,7 +126,17 @@ header {
   transition: 0.5s;
 }
 
-.about-header {
+/*==================================================================================*/
+
+.services-us-container {
+  background-color: #833eb8;
+  /* border: 3px solid red; */
+  margin-bottom: 80px;
+  /* margin-top: 80px; */
+  /* height: 52vh; */
+}
+
+.services-header {
   /* background-color: #833eb8;
   background-color: #ab54de; */
   /* border: 3px solid green; */
@@ -134,30 +146,31 @@ header {
   justify-content: center;
 
   /* align-items: center; */
-  height: 52vh;
+  height: 55vh;
   /* display: none; */
   /* margin: 0; */
 }
 
-.about-content {
+.services-content {
   /* border: 3px solid blue; */
   color: #fff;
   display: flex;
   flex-direction: column;
   gap: 25px;
   width: 50%;
+
+  padding-top: 20px;
 }
 
-.about-us-title {
-  font-size: 42px;
+.services-us-title {
+  font-size: 48px;
   letter-spacing: 3px;
 }
 
-.about-us-paragraph {
-  font-size: 16px;
+.services-us-paragraph {
+  font-size: 18px;
   line-height: 1.7;
 }
-
 /*==================================================================================*/
 .benefits-section {
   /* border: 3px solid green; */
