@@ -102,6 +102,10 @@ header {
   /* gap: 30px; */
 }
 
+.services {
+  background-color: #833eb8;
+}
+
 .logo-name {
   color: #fff;
   font-size: 20px;

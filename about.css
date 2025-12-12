@@ -108,6 +108,10 @@ header {
   font-weight: bold;
 }
 
+.about {
+  background-color: #833eb8;
+}
+
 .menu-nav li a {
   /* border: 2px solid blue; */
   color: #fff;
