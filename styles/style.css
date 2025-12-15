@@ -11,6 +11,7 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  color: #343a40;
   /* position: relative; */
 }
 
@@ -107,6 +108,7 @@ header {
   /* background-color: blue; */
   background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)),
     url(../asset/bg-image.jpg);
+
   background-size: cover;
 
   display: flex;
