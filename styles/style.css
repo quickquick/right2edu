@@ -35,6 +35,10 @@ button:hover {
 
 /*==================================================================================*/
 
+.header-mobile {
+  display: none;
+}
+
 header {
   background-color: #ab54de;
   /* border: 3px solid red; */
@@ -444,7 +448,7 @@ button {
 }
 
 /*==================================================================================*/
-.class-to-section {
+.call-to-action {
   /* background-color: rgba(0, 0, 0, 1); */
   /* background-image: linear-gradient(rgba(0, 0, 0, 0.699), #f7f7ff); */
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), #ab54de);
@@ -570,6 +574,28 @@ footer a:active {
     display: none;
   }
 
+  .header-mobile {
+    background-color: #ab54de;
+    /* border: 3px solid green; */
+    color: #fff;
+    display: block;
+    padding: 18px 0;
+
+    /* position: fixed;
+    width: 100vw; */
+  }
+
+  .nav-container-mobile {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo-name-mobile {
+    font-weight: bold;
+  }
+
   .hero-section {
     display: none;
   }
@@ -606,11 +632,38 @@ footer a:active {
     flex-direction: column;
   }
 
-  .join-our-mission {
+  .testimonial-section h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .call-to-action {
     display: none;
   }
 
   footer {
-    display: none;
+    /* display: none; */
+  }
+
+  .footer-container {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+
+    padding: 0 10px;
+  }
+
+  .footer-container a:link,
+  .footer-container a:visited {
+    color: #833eb8;
+  }
+
+  .main-footer p {
+    font-size: 13px;
+  }
+
+  .contact-us-btn a:link,
+  .contact-us-btn a:visited {
+    color: #fff;
   }
 }
