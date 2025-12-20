@@ -97,10 +97,6 @@ header {
   padding: 22px 16px;
 }
 
-.menu-nav li a:link,
-.menu-nav li a:visited {
-}
-
 .menu-nav li a:hover,
 .menu-nav li a:active {
   background-color: #833eb8;
@@ -169,10 +165,6 @@ button {
   color: #833eb8;
   transition: 0.5s;
 }
-
-/* .hero-content h1 {
-  text-align: center;
-} */
 
 /*==================================================================================*/
 
@@ -255,6 +247,7 @@ button {
 
   width: 80%;
   display: flex;
+  /* flex-direction: column; */
   justify-content: space-around;
   gap: 50px;
 
@@ -388,6 +381,16 @@ button {
   gap: 20px;
 
   /* padding: 100px; */
+}
+
+.what-people-say {
+  /* border: 2px solid blue; */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.testimonial-section h2 {
+  display: none;
 }
 
 .testimonial-section img {
@@ -597,7 +600,21 @@ footer a:active {
   }
 
   .hero-section {
-    display: none;
+    /* display: none; */
+  }
+
+  .hero-content-btn {
+    /* border: 2px solid red; */
+  }
+
+  .hero-content-btn a:link,
+  .hero-content-btn a:visited {
+    color: #fff;
+  }
+
+  .hero-content-btn button {
+    /* border: 3px solid blue; */
+    padding: 10px 20px;
   }
 
   .feature-row {
@@ -607,7 +624,24 @@ footer a:active {
   }
 
   .statistics-component {
-    display: none;
+    /* display: none; */
+    /* border: 3px solid red; */
+    margin-bottom: 600px;
+  }
+
+  .stats-figures {
+    /* border: 3px solid orangered; */
+
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    transform: translate(0, 85%);
   }
 
   .container-3 {
@@ -632,13 +666,42 @@ footer a:active {
     flex-direction: column;
   }
 
+  .what-people-say {
+    display: none;
+  }
+
   .testimonial-section h2 {
+    display: block;
     font-size: 32px;
     text-align: center;
   }
 
   .call-to-action {
-    display: none;
+    /* display: none; */
+  }
+
+  .join-our-mission h1 {
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+  }
+
+  .join-our-mission h2 {
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 1.1;
+  }
+
+  .join-our-mission-btn button {
+    font-size: 18px;
+    /* border: 3px solid blue; */
+    padding: 10px 20px;
+  }
+
+  .join-our-mission-btn a:link,
+  .join-our-mission-btn a:visited {
+    color: #fff;
   }
 
   footer {
@@ -650,7 +713,7 @@ footer a:active {
     display: flex;
     flex-direction: column;
 
-    padding: 0 10px;
+    padding: 15px 10px;
   }
 
   .footer-container a:link,
