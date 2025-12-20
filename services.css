@@ -61,6 +61,10 @@ section {
   margin-bottom: 120px;
 }
 /*==================================================================================*/
+.header-mobile {
+  display: none;
+}
+
 header {
   background-color: #ab54de;
   /* border: 3px solid red; */
@@ -225,7 +229,7 @@ header {
 }
 
 /*==================================================================================*/
-.class-to-section {
+.call-to-action {
   /* background-color: rgba(0, 0, 0, 1); */
   /* background-image: linear-gradient(rgba(0, 0, 0, 0.699), #f7f7ff); */
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), #ab54de);
@@ -236,6 +240,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  /* display: none; */
 }
 
 .join-our-mission {
@@ -281,6 +287,8 @@ header {
   row-gap: 40px;
 
   padding: 50px 150px 25px 150px;
+
+  /* display: none; */
 }
 
 footer a:hover,
@@ -331,4 +339,174 @@ footer a:active {
 
 .footer-container a:link {
   color: black;
+}
+
+/*==================================================================================*/
+
+@media (max-width: 600px) {
+  .standard-container {
+    width: 90vw;
+  }
+
+  header {
+    display: none;
+  }
+
+  .header-mobile {
+    background-color: #ab54de;
+    /* border: 3px solid green; */
+    color: #fff;
+    display: block;
+    padding: 18px 0;
+
+    /* position: fixed;
+    width: 100vw; */
+  }
+
+  .nav-container-mobile {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo-name-mobile {
+    font-weight: bold;
+  }
+
+  .services-us-container {
+    background-color: #833eb8;
+    /* border: 3px solid red; */
+    margin-bottom: 80px;
+    /* margin-top: 80px; */
+    /* height: 52vh; */
+  }
+
+  .services-header {
+    /* background-color: #833eb8;
+  background-color: #ab54de; */
+    /* border: 3px solid green; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    /* align-items: center; */
+    height: 55vh;
+    /* display: none; */
+    /* margin: 0; */
+  }
+
+  .services-content {
+    /* border: 3px solid blue; */
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 100%;
+
+    padding-top: 20px;
+  }
+
+  .services-us-title {
+    font-size: 28px;
+    letter-spacing: 3px;
+  }
+
+  .services-us-paragraph {
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  .benefits-section {
+    /* border: 3px solid green; */
+
+    display: grid;
+    grid-template-columns: 320px;
+    /* justify-items: center; */
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .benefit-item {
+    /* border: 2px solid black; */
+    box-shadow: 0 10px 20px #833eb88f;
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 20px;
+  }
+
+  .benefit-list-items li {
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .impact-video-section {
+    /* border: 3px solid green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 5px; */
+  }
+
+  .impact-video-section h2 {
+    font-size: 28px;
+  }
+
+  .impact-video-section video {
+    width: 100%;
+    height: 250px;
+  }
+
+  .join-our-mission h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+  }
+
+  .join-our-mission h2 {
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 1.1;
+  }
+
+  .join-our-mission-btn button {
+    font-size: 18px;
+    /* border: 3px solid blue; */
+    padding: 10px 20px;
+  }
+
+  .join-our-mission-btn a:link,
+  .join-our-mission-btn a:visited {
+    color: #fff;
+  }
+
+  .footer-container {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+
+    padding: 15px 10px;
+  }
+
+  .footer-container a:link,
+  .footer-container a:visited {
+    color: #833eb8;
+  }
+
+  .main-footer p {
+    font-size: 13px;
+  }
+
+  .contact-us-btn a:link,
+  .contact-us-btn a:visited {
+    color: #fff;
+  }
 }
