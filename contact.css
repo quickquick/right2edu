@@ -59,6 +59,10 @@ section {
   margin-bottom: 120px;
 }
 /*==================================================================================*/
+.header-mobile {
+  display: none;
+}
+
 header {
   background-color: #ab54de;
   /* border: 3px solid red; */
@@ -283,5 +287,64 @@ footer a:active {
   color: black;
 }
 
-/* .contact-us-btn {
-} */
+/*==================================================================================*/
+@media (max-width: 600px) {
+  .standard-container {
+    width: 90vw;
+  }
+
+  header {
+    /* border: 2px solid red; */
+    display: none;
+  }
+
+  .header-mobile {
+    background-color: #ab54de;
+    /* border: 3px solid green; */
+    color: #fff;
+    display: block;
+    padding: 18px 0;
+    /* margin-bottom: 20px; */
+
+    /* position: fixed;
+    width: 100vw; */
+  }
+
+  .nav-container-mobile {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo-name-mobile {
+    font-weight: bold;
+  }
+
+  .footer-container {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+
+    padding: 15px 10px;
+  }
+
+  .contact-content {
+    /* border: 2px solid blue; */
+    width: 100%;
+  }
+
+  .footer-container a:link,
+  .footer-container a:visited {
+    color: #833eb8;
+  }
+
+  .main-footer p {
+    font-size: 13px;
+  }
+
+  .contact-us-btn a:link,
+  .contact-us-btn a:visited {
+    color: #fff;
+  }
+}

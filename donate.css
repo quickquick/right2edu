@@ -34,6 +34,9 @@ button:hover {
 }
 
 /*==================================================================================*/
+.header-mobile {
+  display: none;
+}
 
 header {
   background-color: #ab54de;
@@ -130,74 +133,6 @@ button {
 }
 /*==================================================================================*/
 
-.footer-container {
-  /* border: 2px solid red; */
-  background-color: #e9ecef;
-
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  column-gap: 20px;
-  row-gap: 40px;
-
-  padding: 50px 150px 25px 150px;
-  margin-bottom: auto;
-}
-
-footer a:hover,
-footer a:active {
-  /* background-color: #833eb8; */
-  color: #833eb8;
-}
-
-.footer-container .item {
-  /* border: 3px solid blue; */
-
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.footer-container .item h2 {
-  font-weight: normal;
-}
-
-.main-footer {
-  /* border: 1px solid red; */
-  grid-column: 1 / -1;
-
-  text-align: center;
-}
-
-.footer-container .item-2 li,
-.footer-container .item-3 li {
-  line-height: 2;
-}
-
-.footer-container .item-4 button {
-  background-color: #ab54de;
-  /* color: #fff; */
-  font-size: 18px;
-
-  align-self: flex-start;
-  border-radius: 12px;
-  padding: 15px 30px;
-  cursor: pointer;
-}
-
-.footer-container .item-4 button:hover {
-  background-color: white;
-  /* background-color: #833eb8; */
-  /* transition: all 0.5s ease-out allow-discrete; */
-  transition: 0.5s;
-  /* padding: 15px 30px; */
-  color: #833eb8;
-}
-
-.footer-container a:link {
-  color: black;
-}
-
-/*==================================================================================*/
 .container {
   /* border: 3px solid red; */
   background-color: #833eb8;
@@ -279,4 +214,142 @@ span {
   font-size: 20px;
   /* background-color: limegreen; */
   background-image: linear-gradient(to left, rgba(0, 0, 0, 0.8), #ab54de);
+}
+
+/*==================================================================================*/
+
+.footer-container {
+  /* border: 2px solid red; */
+  background-color: #e9ecef;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 40px;
+
+  padding: 50px 150px 25px 150px;
+  margin-bottom: auto;
+}
+
+footer a:hover,
+footer a:active {
+  /* background-color: #833eb8; */
+  color: #833eb8;
+}
+
+.footer-container .item {
+  /* border: 3px solid blue; */
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-container .item h2 {
+  font-weight: normal;
+}
+
+.main-footer {
+  /* border: 1px solid red; */
+  grid-column: 1 / -1;
+
+  text-align: center;
+}
+
+.footer-container .item-2 li,
+.footer-container .item-3 li {
+  line-height: 2;
+}
+
+.footer-container .item-4 button {
+  background-color: #ab54de;
+  /* color: #fff; */
+  font-size: 18px;
+
+  align-self: flex-start;
+  border-radius: 12px;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+
+.footer-container .item-4 button:hover {
+  background-color: white;
+  /* background-color: #833eb8; */
+  /* transition: all 0.5s ease-out allow-discrete; */
+  transition: 0.5s;
+  /* padding: 15px 30px; */
+  color: #833eb8;
+}
+
+.footer-container a:link {
+  color: black;
+}
+/*==================================================================================*/
+@media (max-width: 600px) {
+  .standard-container {
+    width: 90vw;
+  }
+
+  header {
+    /* border: 2px solid red; */
+    display: none;
+  }
+
+  .header-mobile {
+    background-color: #ab54de;
+    /* border: 3px solid green; */
+    color: #fff;
+    display: block;
+    padding: 18px 0;
+
+    /* position: fixed;
+    width: 100vw; */
+    margin-bottom: 80px;
+  }
+
+  .nav-container-mobile {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo-name-mobile {
+    font-weight: bold;
+  }
+
+  .donation-container {
+    /* border: 3px solid red; */
+    width: 90vw;
+    /* transform: none; */
+    top: 0;
+    left: 5%;
+    transform: translate(0, -50%);
+  }
+
+  footer {
+    /* display: none; */
+  }
+
+  .footer-container {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+
+    padding: 15px 10px;
+  }
+
+  .footer-container a:link,
+  .footer-container a:visited {
+    color: #833eb8;
+  }
+
+  .main-footer p {
+    font-size: 13px;
+  }
+
+  .contact-us-btn a:link,
+  .contact-us-btn a:visited {
+    color: #fff;
+  }
 }
