@@ -63,6 +63,7 @@ header {
 
   display: flex;
   justify-content: space-between;
+  padding: 0 20px;
 }
 
 .logo-nav {
@@ -94,7 +95,7 @@ header {
   /* border: 2px solid blue; */
   color: #fff;
 
-  padding: 22px 16px;
+  padding: 20px 16px;
 }
 
 .menu-nav li a:hover,
@@ -103,6 +104,8 @@ header {
   /* transition: all 0.5s ease-out allow-discrete; */
   transition: 0.5s;
 }
+
+/*==================================================================================*/
 
 .hero-header {
   /* background-color: blue; */
