@@ -728,3 +728,10 @@ footer a:active {
     color: #fff;
   }
 }
+
+.hero-section,
+section,
+aside,
+footer {
+  display: none;
+}
