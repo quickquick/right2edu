@@ -48,7 +48,7 @@ header {
   /* width: 100vw; */
   /* position: fixed; */
 
-  z-index: 10;
+  /* z-index: 10; */
 }
 
 .standard-container {
@@ -62,6 +62,7 @@ header {
 
   display: flex;
   justify-content: space-between;
+  padding: 0 20px;
 }
 
 .logo-nav {
