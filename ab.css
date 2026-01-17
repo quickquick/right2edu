@@ -144,6 +144,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 
   height: 55vh;
 }
@@ -154,8 +155,8 @@ header {
   display: flex;
   flex-direction: column;
   gap: 25px;
-  width: 50%;
-
+  width: 70%;
+  text-align: center;
   padding-top: 20px;
 }
 

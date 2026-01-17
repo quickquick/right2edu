@@ -140,23 +140,17 @@ header {
   background-color: #833eb8;
   /* border: 3px solid red; */
   margin-bottom: 80px;
-  /* margin-top: 80px; */
-  /* height: 52vh; */
 }
 
 .contact-header {
-  /* background-color: #833eb8;
-  background-color: #ab54de; */
   /* border: 3px solid green; */
 
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 
-  /* align-items: center; */
   height: 55vh;
-  /* display: none; */
-  /* margin: 0; */
 }
 
 .contact-content {
@@ -165,6 +159,7 @@ header {
   display: flex;
   flex-direction: column;
   gap: 25px;
+  text-align: center;
   width: 50%;
 
   padding-top: 20px;
@@ -319,6 +314,10 @@ footer a:active {
 
   .logo-name-mobile {
     font-weight: bold;
+  }
+
+  .contact-us-title {
+    font-size: 32px;
   }
 
   .footer-container {
