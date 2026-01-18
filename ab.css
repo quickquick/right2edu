@@ -438,8 +438,8 @@ footer a:active {
     padding: 18px 0;
     /* margin-bottom: 20px; */
 
-    /* position: fixed;
-    width: 100vw; */
+    position: fixed;
+    width: 100vw;
   }
 
   .nav-container-mobile {

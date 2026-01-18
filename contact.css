@@ -299,10 +299,10 @@ footer a:active {
     color: #fff;
     display: block;
     padding: 18px 0;
-    /* margin-bottom: 20px; */
+    margin-bottom: 20px;
 
-    /* position: fixed;
-    width: 100vw; */
+    position: fixed;
+    width: 100vw;
   }
 
   .nav-container-mobile {
@@ -320,17 +320,22 @@ footer a:active {
     font-size: 32px;
   }
 
+  .contact-content {
+    /* border: 2px solid blue; */
+    width: 100%;
+  }
+
+  .contact-us-btn a:link,
+  .contact-us-btn a:visited {
+    color: #fff;
+  }
+
   .footer-container {
     /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
 
     padding: 15px 10px;
-  }
-
-  .contact-content {
-    /* border: 2px solid blue; */
-    width: 100%;
   }
 
   .footer-container a:link,
@@ -340,10 +345,5 @@ footer a:active {
 
   .main-footer p {
     font-size: 13px;
-  }
-
-  .contact-us-btn a:link,
-  .contact-us-btn a:visited {
-    color: #fff;
   }
 }

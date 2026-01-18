@@ -274,3 +274,87 @@ footer a:active {
 .footer-container a:link {
   color: black;
 }
+
+/*==================================================================================*/
+@media (max-width: 600px) {
+  body {
+    /* background-color: green; */
+  }
+
+  .standard-container {
+    width: 80vw;
+  }
+
+  header {
+    display: none;
+  }
+
+  .header-mobile {
+    background-color: #ab54de;
+    /* border: 3px solid green; */
+    color: #fff;
+    display: block;
+    padding: 18px 0;
+    /* margin-bottom: 20px; */
+
+    position: fixed;
+    width: 100vw;
+  }
+
+  .nav-container-mobile {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo-name-mobile {
+    font-weight: bold;
+  }
+
+  .events-header {
+    /* border: 3px solid green; */
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+
+    /* align-items: center; */
+    height: 55vh;
+    margin: 0;
+    width: 100vw;
+  }
+
+  .events-content {
+    /* border: 2px solid red; */
+    width: 100%;
+  }
+
+  .events-gallery {
+    /* border: 3px solid red; */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .event-image img {
+    /* border: 2px solid red; */
+    width: 100%;
+  }
+
+  .footer-container {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+
+    padding: 15px 10px;
+  }
+
+  .footer-container a:link,
+  .footer-container a:visited {
+    color: #833eb8;
+  }
+
+  .main-footer p {
+    font-size: 13px;
+  }
+}

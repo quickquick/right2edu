@@ -104,7 +104,8 @@ header {
 
 .hero-header {
   /* background-color: blue; */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)),
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)),
     url(../asset/bg-image.jpg);
 
   background-size: cover;
@@ -582,8 +583,8 @@ footer a:active {
     display: block;
     padding: 18px 0;
 
-    /* position: fixed;
-    width: 100vw; */
+    position: fixed;
+    width: 100vw;
   }
 
   .nav-container-mobile {
@@ -625,6 +626,7 @@ footer a:active {
     /* display: none; */
     /* border: 3px solid red; */
     margin-bottom: 600px;
+    z-index: -9;
   }
 
   .stats-figures {

@@ -348,8 +348,8 @@ footer a:active {
     display: block;
     padding: 18px 0;
 
-    /* position: fixed;
-    width: 100vw; */
+    position: fixed;
+    width: 100vw;
   }
 
   .nav-container-mobile {
