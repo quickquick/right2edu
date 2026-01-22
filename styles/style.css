@@ -540,7 +540,7 @@ footer a:active {
 
 .footer-container .item-4 button {
   background-color: #ab54de;
-  /* color: #fff; */
+  color: #fff;
   font-size: 18px;
 
   align-self: flex-start;

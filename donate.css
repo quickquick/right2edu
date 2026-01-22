@@ -42,13 +42,7 @@ header {
   background-color: #ab54de;
   /* border: 3px solid red; */
 
-  /* width: 100%; */
-  /* padding: 14px 0; */
   margin-bottom: 80px;
-  /* width: 100vw; */
-  /* position: fixed; */
-
-  /* z-index: 10; */
 }
 
 .standard-container {
@@ -129,6 +123,7 @@ button {
 
 .btn-2:hover {
   background-color: #fff;
+  /* background-color: blue; */
   color: #833eb8;
   transition: 0.5s;
 }
@@ -234,7 +229,6 @@ span {
 
 footer a:hover,
 footer a:active {
-  /* background-color: #833eb8; */
   color: #833eb8;
 }
 
@@ -264,7 +258,7 @@ footer a:active {
 
 .footer-container .item-4 button {
   background-color: #ab54de;
-  /* color: #fff; */
+  color: #fff;
   font-size: 18px;
 
   align-self: flex-start;
@@ -274,17 +268,18 @@ footer a:active {
 }
 
 .footer-container .item-4 button:hover {
-  background-color: white;
-  /* background-color: #833eb8; */
+  /* background-color: white; */
+  background-color: #833eb8;
   /* transition: all 0.5s ease-out allow-discrete; */
   transition: 0.5s;
   /* padding: 15px 30px; */
-  color: #833eb8;
+  /* color: #fff; */
 }
 
 .footer-container a:link {
   color: black;
 }
+
 /*==================================================================================*/
 @media (max-width: 600px) {
   .standard-container {
